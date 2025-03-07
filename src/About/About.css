@@ -1,0 +1,70 @@
+.custom-spotlight-card{
+    height: 250px;
+    width: 250px;
+    background: linear-gradient(to bottom right, rgb(25, 25, 25), rgb(37, 37, 37), rgb(25, 25, 25), rgb(32, 32, 32));
+    box-shadow: 0px 0px 5px var(--grey);
+}
+.SplitText-class{
+    color: var(--white);
+}
+
+.about-title{
+    color: var(--white);
+    background-color: none;
+    padding: 10px 5px 10px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.about-title-div{
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.count-up-text{
+    color: var(--white);
+    background-color: var(--black);
+    background-color: none;
+    padding: 10px 5px 10px 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 10px;
+}
+.count-up-text::after{
+    content: "%";
+}
+.about-title-div-Two-Parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.about-title-div-three-Parent{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: var(--white);
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.About-parent{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.GradientText-About{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    height: 130px;
+    margin-top: 10px;
+}

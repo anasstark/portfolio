@@ -1,0 +1,98 @@
+.Projects-division{
+    height: 330px;
+    width: 40%;
+    box-shadow: 0px 0px 5px var(--grey);
+    border-radius: 15px;
+    padding: 10px;
+}
+.Projects-division-parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.revealed{
+    color: var(--white);
+}
+.variable-proximity-project{
+    font-size: 35px;
+    color: var(--white);
+}
+.height{
+    height: 60px;
+    margin-top: 20px;
+}
+.GradientText-title{
+    padding: 7px 20px 15px 20px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+.Project-para{
+    color: var(--white);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+@media screen and (max-width:900px){
+    .Projects-division{
+        height: 380px;
+        width: 80%;
+        box-shadow: 0px 0px 5px var(--grey);
+        border-radius: 15px;
+        padding: 3px;
+
+    }
+    .Projects-division-parent{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .Project-para{
+        color: var(--white);
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 30px 5px 5px 5px;
+    }
+
+    .GradientText-title{
+        padding:10px;
+        font-size: 17px;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 10px;
+    }
+    
+}
+
+
+/* @media screen and (max-width:1100px) {
+    .Projects-division{
+        height: 450px;
+        width: 80%;
+        box-shadow: 0px 0px 5px var(--grey);
+        border-radius: 15px;
+        padding: 3px;
+
+    }
+    .Projects-division-parent{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .Project-para{
+        color: var(--white);
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 10px;
+    }
+    .GradientText-title{
+        padding:10px;
+        font-size: 17px;
+        font-weight: 700;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-top: 10px;
+    }
+    
+} */

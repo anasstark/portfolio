@@ -1,0 +1,204 @@
+
+.custom-spotlight-contact{
+    height: 380px;
+    width: 38%;
+    box-shadow: 0px 0px 5px var(--grey);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.custom-spotlight-contact-two{
+    height: 200px;
+    width: 38%;
+    box-shadow: 0px 0px 5px var(--grey);
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+.Contact-main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.Contact-Para{
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 3px var(--grey);
+}
+.contact-GradientText{
+    height: 55px;
+    padding: 5px 15px 5px 15px ;
+    font-size: 30px;
+}
+.contact-GradientText-two{
+    height: 55px;
+    padding: 5px 15px 5px 15px;
+}
+.contact-GradientText-three{
+    height: 35px;
+    font-size: 20px;
+    padding: 5px 15px 5px 15px;
+}
+.Logo-class-two{
+    height: 35px;
+    width: 35px;
+}
+.icons-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    padding: 5px 0px 0px ;
+    height: 100px;
+
+}
+.icons-div-parent{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin: 15px;
+}
+.input-{
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 5px var(--grey);
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+.input-two{
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 5px var(--grey);
+    height: 80px;
+    width: 300px;
+    border-radius: 10px;
+    color: var(--white);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+.input-SUBMIT{
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 5px var(--grey);
+    height: 35px;
+    width: 100px;
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    width: 60%;
+}
+.contact-form-div{
+    display: flex;
+    justify-content: center;
+    background-color: none;
+    padding: 15px;
+    align-items: center;
+    height: 90%;
+    border-radius: 15px;
+}
+.input-SUBMIT-div{
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+@media screen and (max-width:900px) {
+    .contact-form{
+        width: 260px;
+    }
+    .contact-form-div{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: none;
+        padding: 0px;
+        align-items: center;
+        height: 100%;
+        border-radius: 15px;
+    }
+    .input-{
+        outline: none;
+        border: none;
+        box-shadow: 0px 0px 5px var(--grey);
+        height: 40px;
+        width: 250px;
+        border-radius: 10px;
+        color: var(--white);
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 10px;
+    }
+    .input-two{
+        outline: none;
+        border: none;
+        box-shadow: 0px 0px 5px var(--grey);
+        height: 80px;
+        width: 250px;
+        border-radius: 10px;
+        color: var(--white);
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding-left: 10px;
+    }
+    .input-SUBMIT-div{
+        width: 90%;
+        display: flex;
+        justify-content: end;
+    }
+    .Contact-division-parent{
+            height: 600px;
+            width: 80%;
+            box-shadow: 0px 0px 5px var(--grey);
+            border-radius: 15px;
+            padding: 3px;
+    }
+    .custom-spotlight-contact{
+        height: 400px;
+        width: 80%;
+        box-shadow: 0px 0px 5px var(--grey);
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .custom-spotlight-contact-two{
+        height: 200px;
+        width: 80%;
+        box-shadow: 0px 0px 5px var(--grey);
+        border-radius: 15px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .Contact-main{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .icons-div{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 10px;
+        width: 90%;
+        padding: 0px ;
+        height: 90px;
+    }
+    .contact-GradientText{
+        height: 55px;
+        padding: 5px 15px 5px 15px ;
+        font-size: 22px;
+    }
+
+    
+}

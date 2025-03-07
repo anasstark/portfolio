@@ -1,0 +1,25 @@
+:root{
+  --primary:rgb(27, 0, 90);
+  --secondary:white;
+  --grey:rgb(227, 227, 227);
+  --black:black;
+  --white:white;
+
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: var(--black);
+}
+
+*::-webkit-scrollbar{
+  display: none;
+}
+.pd{
+  padding: 10px;
+}
+.bold{
+ font-weight: 700;
+ font-size: 25px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

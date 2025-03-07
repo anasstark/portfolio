@@ -1,0 +1,80 @@
+.Skills-SpotlightCard{
+    height: 80px;
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+
+.Logo-class{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+   border-radius: 10px;
+
+}
+.Skill-h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    color: var(--white);
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Skills-progress{
+   display: block;
+   height: 75px;
+   padding: 10px;
+   border-radius: 10px;
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+progress.progress-class::-webkit-progress-bar {
+    background-color: #ffffff; /* Background color */
+    border-radius: 10px;
+    height: 12px;
+  }
+  
+  progress.progress-class::-webkit-progress-value {
+    background-color: #959595; /* Progress color */
+    border-radius: 10px;
+  }
+  
+  /* For Firefox */
+  progress.progress-class::-moz-progress-bar {
+    background-color: #4caf50; /* Progress color */
+    border-radius: 10px;
+  }
+
+  .SpotlightCard-parent{
+    display: flex;
+    justify-content: space-evenly;
+    row-gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+
+  @media screen and (max-width:500px) {
+    .Skills-SpotlightCard{
+      height: 65px;
+      width: 260px;
+      display: flex;
+      justify-content: space-around;
+      gap: 15px;
+    }
+    .Skills-progress{
+      display: block;
+      height: 75px;
+      padding: 5px;
+      border-radius: 10px;
+   }
+   
+  .Logo-class{
+    height: 70px;
+    width: 70px;
+    padding: 10px;
+  border-radius: 10px;
+
+  }
+  
+  }
+  

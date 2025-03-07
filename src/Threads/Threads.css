@@ -1,0 +1,25 @@
+.threads-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: -80px;
+    min-width: 600px;
+
+  }
+
+  @media screen and (max-width:1000px) {
+    .threads-container {
+      position: relative;
+      width: 100%;
+      height: 300px!important;
+      top: -100px;
+    }
+}
+  @media screen and (max-width:900px) {
+    .threads-container {
+      position: relative;
+      width: 100%;
+      height: 400px!important;
+      top: -220px;
+    }
+}

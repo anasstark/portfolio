@@ -1,0 +1,124 @@
+.Navbar-content{
+    display: flex;
+    justify-content:space-evenly ;
+    width: 60vw;
+    height: 100px;
+    background-color:var(--black);
+    align-items: center;
+}
+.Navbar-parent{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+
+.mgtop{
+ margin-top: 300px;
+}
+
+.Navbar-Btn{
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+.GradientText-div{
+  width: 40vw;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.GradientText-class{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+
+}
+
+
+
+@media screen and (max-width:970px) {
+  .Navbar-Btn{
+    height: 30%;
+    padding:2px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+   font-size: 13px;
+
+}
+}
+
+@media screen and (max-width:800px) {
+  .Navbar-content{
+    display: none;
+  }
+
+  .GradientText-div{
+    width: 100vw;
+    height: 100px;
+
+  }
+
+}
+
+.shiny-text {
+    color: #cccccca4;
+    background: linear-gradient(
+      120deg,
+      rgba(255, 255, 255, 0.386) 40%,
+      rgba(255, 255, 255, 0.8) 50%,
+      rgba(255, 255, 255, 0) 60%
+    );
+    background-size: 200% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    display: inline-block;
+    animation: shine 5s linear infinite;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 100%;
+    }
+    100% {
+      background-position: -100%;
+    }
+  }
+  
+  .shiny-text.disabled {
+    animation: none;
+  }
+  .FiAlignJustify{
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .side-navbar{
+    height: 50vh;
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    background-color: var(--black);
+    box-shadow: 0px 0px 5px var(--grey);
+    z-index: 10000;
+  }
+  .side-nav-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+
+  }

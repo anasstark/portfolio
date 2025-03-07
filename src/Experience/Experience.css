@@ -1,0 +1,65 @@
+.Experience-parent{
+   margin-top: 10px;
+}
+.Experience-SpotlightCard{
+    height: 300px;
+    width: 35%;
+    box-shadow: 0px 0px 7px var(--grey);
+}
+.Experience-SpotlightCard-parent{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+.Experience-h2-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    border-radius: 15px;
+}
+.Experience-h2{
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+.Experience-h3{
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.GradientText-h3{
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 15px 0px 15px;
+    border-radius: 15px;
+}
+.mgt{
+    margin-top: 40px;
+}
+
+
+@media screen and (max-width:500px) {
+    .Experience-SpotlightCard{
+        height: 270px;
+        width: 70%;
+        box-shadow: 0px 0px 7px var(--grey);
+    }
+    .Experience-h2{
+        color: var(--white);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+    .GradientText-h3{
+        font-size: 20px;
+    }
+    .mgt{
+        margin-top: 20px;
+    }
+}
